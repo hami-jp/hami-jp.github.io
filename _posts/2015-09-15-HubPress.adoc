@@ -1,3 +1,5 @@
 # HubPress
 
-[HubPress](http://hubpress.io/)なる
+[HubPress](http://hubpress.io/)なる、Githubでブログをするための静的サイトジェネレーターを見つけたので、試しに使ってみました。
+
+付属のエディタは全くもって使えたものじゃないけれど、ブラウザ上で記事を書いてそのまま投稿できるのはWordpressみたいで画期的。
