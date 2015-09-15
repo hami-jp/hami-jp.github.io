@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "hami-jp",
-    "repositoryName": "hami-jp.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"hami-jp","repositoryName":"hami-jp.github.io","branch":"master"},"site":{"title":"{$CODE_DAYS}","description":"Web + Design + Programming !","url":"https://hami-jp.github.io"},"socialnetwork":{"googleplus":"","github":"hami-jp"},"theme":{"name":"Casper","url":"//hami-jp.github.io/themes/Casper"}}
