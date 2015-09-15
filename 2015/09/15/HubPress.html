@@ -1,32 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>HubPress - {$CODE_DAYS}</title>
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <meta name="description" content="">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="HubPress">
-    <meta name="twitter:description" content="">
-
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="HubPress">
-    <meta property="og:description" content="">
-
-    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
-
-    <link rel="stylesheet" type="text/css" href="//hami-jp.github.io/themes/uno/assets/css/uno.css?v=1.0.0" />
-
+    <title>HubPress</title>
+    <meta name="description" content="" />
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//hami-jp.github.io/themes/Saga/assets/css/style.css?v=1.0.0" rel="stylesheet" type="text/css">
+    <link href="//hami-jp.github.io/themes/Saga/assets/css/animate.min.css?v=1.0.0" rel="stylesheet" type="text/css">
+    <link href="//hami-jp.github.io/themes/Saga/favicon.ico" rel="shortcut icon">
     <link rel="canonical" href="https://hami-jp.github.io/2015/09/15/HubPress.html" />
     
     <meta property="og:site_name" content="{$CODE_DAYS}" />
@@ -35,7 +22,7 @@
     <meta property="og:description" content="HubPressという、Githubでブログをするための静的サイトジェネレーターを見つけたので、試しに使ってみました。 付属のエディタは全くもって使えたものじゃない上に、MarkdownではなくAsciiDocという文法で戸惑うけれど、Webにアクセスできる環境ならブラウザ上で記事を書いて手軽に投稿できるのはWordpressみたいでイケてる。 ただし、画像の管理が少しめんどくさいみたいだけれど、いまのところ日本語などのマルチバイト文字列も正常にレンダリングできてるので、問題なければこのままHubPressでブログやっていきたいと思ってます。..." />
     <meta property="og:url" content="https://hami-jp.github.io/2015/09/15/HubPress.html" />
     <meta property="article:published_time" content="2015-09-14T15:00:00.000Z" />
-    <meta property="article:modified_time" content="2015-09-15T06:43:24.170Z" />
+    <meta property="article:modified_time" content="2015-09-15T06:44:23.754Z" />
     <meta property="article:tag" content="HubPress" />
     <meta property="article:tag" content="Blog" />
     <meta property="article:tag" content="Open Source" />
@@ -60,7 +47,7 @@
     "headline": "HubPress",
     "url": "https://hami-jp.github.io/2015/09/15/HubPress.html",
     "datePublished": "2015-09-14T15:00:00.000Z",
-    "dateModified": "2015-09-15T06:43:24.170Z",
+    "dateModified": "2015-09-15T06:44:23.754Z",
     "keywords": "HubPress,  Blog,  Open Source",
     "description": "HubPressという、Githubでブログをするための静的サイトジェネレーターを見つけたので、試しに使ってみました。 付属のエディタは全くもって使えたものじゃない上に、MarkdownではなくAsciiDocという文法で戸惑うけれど、Webにアクセスできる環境ならブラウザ上で記事を書いて手軽に投稿できるのはWordpressみたいでイケてる。 ただし、画像の管理が少しめんどくさいみたいだけれど、いまのところ日本語などのマルチバイト文字列も正常にレンダリングできてるので、問題なければこのままHubPressでブログやっていきたいと思ってます。..."
 }
@@ -69,86 +56,32 @@
     <meta name="generator" content="Ghost ?" />
     <link rel="alternate" type="application/rss+xml" title="{$CODE_DAYS}" href="https://hami-jp.github.io/rss" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
-
 </head>
-<body class="post-template tag-HubPress tag-Blog tag-Open-Source no-js">
-
-    <span class="mobile btn-mobile-menu">
-        <i class="icon icon-list btn-mobile-menu__icon"></i>
-        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-    </span>
-
-    <header class="panel-cover panel-cover--collapsed " >
-      <div class="panel-main">
-    
-        <div class="panel-main__inner panel-inverted">
-        <div class="panel-main__content">
-    
-            <h1 class="panel-cover__title panel-title"><a href="https://hami-jp.github.io" title="link to homepage for {$CODE_DAYS}">{$CODE_DAYS}</a></h1>
-            <hr class="panel-cover__divider" />
-            <p class="panel-cover__description">Web + Design + Programming !</p>
-            <hr class="panel-cover__divider panel-cover__divider--secondary" />
-    
-            <div class="navigation-wrapper">
-    
-              <nav class="cover-navigation cover-navigation--primary">
-                <ul class="navigation">
-                  <li class="navigation__item"><a href="https://hami-jp.github.io/#blog" title="link to {$CODE_DAYS} blog" class="blog-button">Blog</a></li>
-                </ul>
-              </nav>
-    
-              
-              
-              <nav class="cover-navigation navigation--social">
-                <ul class="navigation">
-              
-              
-              
-              
-                  <!-- Github -->
-                  <li class="navigation__item">
-                    <a href="hami-jp" title="Github account">
-                      <i class='icon icon-social-github'></i>
-                      <span class="label">Github</span>
-                    </a>
-                  </li>
-                  </li>
-              
-              
-              
-              
-              
-              
-                </ul>
-              </nav>
-              
-    
-            </div>
-    
-          </div>
-    
-        </div>
-    
-        <div class="panel-cover--overlay"></div>
-      </div>
-    </header>
-
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            
-
-  <article class="post-container post-container--single">
-
-    <header class="post-header">
-      <div class="post-meta">
-        <time datetime="15 Sep 2015" class="post-meta__date date">15 Sep 2015</time> &#8226; <span class="post-meta__tags tags">on <a href="https://hami-jp.github.io/tag/HubPress">HubPress</a>, <a href="https://hami-jp.github.io/tag/Blog"> Blog</a>, <a href="https://hami-jp.github.io/tag/Open-Source"> Open Source</a></span>
-        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/7612130?v=3" alt="profile image for hami" class="avatar post-meta__avatar" /> by hami</span>
-      </div>
-      <h1 class="post-title">HubPress</h1>
-    </header>
-
-    <section class="post tag-HubPress tag-Blog tag-Open-Source">
-      <div class="paragraph">
+<body class="post-template tag-HubPress tag-Blog tag-Open-Source">
+    <header id="header" class="animated fadeIn">
+    <div class="header-background">
+    <section class="blog-content">
+        <a id="site-url" class="blog-title" href="https://hami-jp.github.io">{$CODE_DAYS}</a>
+        <span class="blog-description">Web + Design + Programming !</span>
+        <nav class="links fadeIn animated">
+            <ul>
+                <!-- <li class="rss"><a title="RSS Feed" href="/rss/"><i class="fa fa-fw fa-rss-square"></i></a></li> -->
+        
+            </ul>
+        </nav>
+    </section>
+    <section class="header-content">
+        <h1 class="post-title animated fadeInUp">HubPress</h1>
+        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1442242800" datetime="2015-09-15T00:00" title="15 September 2015">2015-09-15 00:00:00<ago class="ago"></time></span>
+            <span class="tags animated fadeInUp"><i class="fa fa-tags"></i> <a href="https://hami-jp.github.io/tag/HubPress">HubPress</a>, <a href="https://hami-jp.github.io/tag/Blog"> Blog</a>, <a href="https://hami-jp.github.io/tag/Open-Source"> Open Source</a></span>
+            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="">hami</a></span></span>
+    </section>
+    </div>
+</header>
+<main id="main" class="content">
+    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post tag-HubPress tag-Blog tag-Open-Source">
+        <section class="post-content">
+            <div class="paragraph">
 <p><a href="http://hubpress.io/">HubPress</a>という、Githubでブログをするための静的サイトジェネレーターを見つけたので、試しに使ってみました。</p>
 </div>
 <div class="paragraph">
@@ -157,21 +90,22 @@
 <div class="paragraph">
 <p>ただし、画像の管理が少しめんどくさいみたいだけれど、いまのところ日本語などのマルチバイト文字列も正常にレンダリングできてるので、問題なければこのままHubPressでブログやっていきたいと思ってます。</p>
 </div>
-    </section>
+        </section>
 
-  </article>
+    </article>
 
-
-
-
-            <footer class="footer">
-                <span class="footer__copyright">&copy; 2015. All rights reserved.</span>
-                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
-                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
-            </footer>
-        </div>
-    </div>
-
+</main>
+    <footer class="animated fadeIn" id="footer">
+        <section class="colophon">
+          <section class="copyright">Copyright &copy; <span itemprop="copyrightHolder">{$CODE_DAYS}</span>. <span rel="license">All Rights Reserved</span>.</section>
+          <section class="poweredby">Published with <a class="icon-ghost" href="http://hubpress.io">HubPress</a></section>
+        </section>
+        <section class="bottom">
+          <section class="attribution">
+            <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
+          </section>
+        </section>
+    </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
@@ -184,9 +118,7 @@
 
         hljs.initHighlightingOnLoad();      
       </script>
-
-    <script type="text/javascript" src="//hami-jp.github.io/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    <script src="//hami-jp.github.io/themes/Saga/assets/js/scripts.js?v=1.0.0"></script>
     
-
 </body>
 </html>
