@@ -1,4 +1,5 @@
 = HubPress
+:hp-image: https://cloud.githubusercontent.com/assets/7612130/9870094/12e77f34-5bc4-11e5-835d-adfd0e418cb7.png
 :hp-tags: HubPress, Blog, Open Source
 
 link:http://hubpress.io/[HubPress]という、Githubでブログをするための静的サイトジェネレーターを見つけたので、試しに使ってみました。
